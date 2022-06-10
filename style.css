@@ -1,8 +1,11 @@
 *{
     box-sizing: border-box;
 }
+body{
+    background-image: url("./aron-visuals-HciQohInvKU-unsplash.jpg");
+}
 #screen{
-    margin: auto;
+    margin: 50px auto;
     width: 23vw;
     height: 40vw;
     background-color: black;
