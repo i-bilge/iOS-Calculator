@@ -205,6 +205,15 @@ buttonArea.addEventListener("click", (e) => {
           calculation.textContent
         );
       } else if (e.target.textContent == "+-") {
+        if (output.textContent != ""){
+          if (output.textContent[0] == "-") {
+            output.textContent = output.textContent.substring(1);
+          } 
+          else {
+            output.textContent = "-"+output.textContent;
+          }
+        }
+
         console.log(
           "Click on +- => Num1: ",
           firstNumber,
