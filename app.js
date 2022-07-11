@@ -30,9 +30,8 @@ function calculateIt(Num1, Num2, Op, a, b, c) {
 //NOW WE RE STARTING THE EVENTLISTENER
 //if there is no input just take number
 buttonArea.addEventListener("click", (e) => {
-  let x = e.target.textContent;
   if (!output.textContent) {
-    if (e.target.className == "butons numbers") {
+    if (e.target.className == "butons numbers" || e.target.textContent == "-") {
       output.textContent = e.target.textContent;
       secondNumber = Number(output.textContent);
 
