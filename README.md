@@ -1,4 +1,3 @@
-HTML, CSS, JavaScript (CSS and JavaScript play the bigger role here.)
 #  :iphone: iOS-Calculator 
 > This iOS Calculator app performs all calculation operations
 
